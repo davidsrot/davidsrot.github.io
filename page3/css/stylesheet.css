@@ -1,0 +1,116 @@
+@font-face {
+    font-family: 'AWT Hamilton Gothic';
+    src: url('fonts/AWTHamiltonGothicLight.woff2') format('woff2'),
+        url('fonts/AWTHamiltonGothicLight.woff') format('woff'),
+        url('fonts/AWTHamiltonGothicLight.ttf') format('truetype'),
+        url('fonts/AWTHamiltonGothicLight.svg#AWTHamiltonGothicLight') format('svg');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Monument Extended';
+    src: url('fonts/MonumentExtended-Ultrabold.woff2') format('woff2'),
+        url('fonts/MonumentExtended-Ultrabold.woff') format('woff'),
+        url('fonts/MonumentExtended-Ultrabold.svg#MonumentExtended-Ultrabold') format('svg');
+    font-weight: 800;
+    font-style: normal;
+}
+
+
+}
+@font-face {
+    font-family: 'AG Book Rounded';
+    src: url('fonts/AGBookRounded-Bold.woff2') format('woff2'),
+        url('fonts/AGBookRounded-Bold.woff') format('woff'),
+        url('fonts/AGBookRounded-Bold.ttf') format('truetype'),
+        url('fonts/AGBookRounded-Bold.svg#AGBookRounded-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+}
+h2{
+  font-family: 'AWT Hamilton Gothic';
+    text-transform: uppercase;
+    font-size: 35px;
+    float: left;
+}
+.heading {
+  margin-top: 10px;
+ font-family: "AG Book Rounded";
+ font-size: 1.5em;
+ color: yellow;
+ -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+  font-family: "AG Book Rounded";
+  width: 100%;
+  padding: 10px;
+
+}
+
+.article{
+  font-family: "AG Book Rounded";
+  color: #dededa;
+  width:100%;
+  margin: 0 auto;
+  border:2px solid black;
+  padding:60px;
+  position:relative;
+}
+img{
+  width: 50%;
+  /* padding-top: px; */
+  float: right;
+}
+.buttons{
+font-family: 'AWT Hamilton Gothic';
+-webkit-animation: glow 1s ease-in-out infinite alternate;
+-moz-animation: glow 1s ease-in-out infinite alternate;
+animation: glow 10s ease-in-out infinite alternate;
+}
+.buttons a{
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family:"AWT Hamilton Gothic";
+  font-size: 12pt;
+  padding-right: 20px;
+  padding–top: 10px;
+  color: black;
+}
+
+.header {
+font-family: 'AWT Hamilton Gothic';
+width:90%;
+overflow: hidden;
+position:fixed;
+background: white;
+top:2px;
+/* width:100%; */
+/* left: 0; */
+margin: 0 auto;
+
+{
+p{
+  padding-top:40px;
+}
+body{
+  margin:0;
+  padding:0;
+}
+a{
+  font-family: sans-serif;
+  text-transform: uppercase;
+  font-size: 35px;
+  float: left;
+}
+.vital{
+
+  padding-top: 20px;
+}
+@-webkit-keyframes glow {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #ffea00, 0 0 40px #ffea00, 0 0 50px #ffea00, 0 0 60px #ffea00, 0 0 70px #ffea00;
+  }
+  to {
+    text-shadow: 0 0 20px #fff, 0 0 30px #ff7b00, 0 0 40px #ff7b00, 0 0 50px #ff7b00, 0 0 60px #ff7b00, 0 0 70px #ff7b00, 0 0 80px #ff7b00;
+  }
+}

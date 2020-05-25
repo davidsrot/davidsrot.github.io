@@ -1,0 +1,20 @@
+@font-face {
+    font-family: 'Favorit Mono';
+    src: url('FavoritMono-Bold.woff2') format('woff2'),
+        url('FavoritMono-Bold.woff') format('woff'),
+        url('FavoritMono-Bold.ttf') format('truetype'),
+        url('FavoritMono-Bold.svg#FavoritMono-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Favorit Mono';
+    src: url('FavoritMono-Regular.woff2') format('woff2'),
+        url('FavoritMono-Regular.woff') format('woff'),
+        url('FavoritMono-Regular.ttf') format('truetype'),
+        url('FavoritMono-Regular.svg#FavoritMono-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
